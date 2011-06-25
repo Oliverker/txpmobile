@@ -1,0 +1,31 @@
+
+
+** TXPMOBILE v0.4
+** Oliver Ker (www.oliverker.co.uk)
+** txpmobile.com
+
+==================================================================
+
+
+///* ADDING YOUR OWN iOS Home Icon *///
+
+* Alter the home-icon.png file in the assets folder
+
+* Save as what ever you like for file name but keep as a png file
+
+* Upload to the themes images folder
+
+* Open txpmobile.php file in the theme folder
+
+* On line 21 you can change the href snippet from 'apple-icon-precomposed.png' to what you named your file
+
+* the 'rel="apple-touch-icon-precomposed"' means your icon will display with NO glossy overlay and how you saved it. If you want the standard apple gloss then remove '-precomposed' so:
+
+	rel="apple-touch-icon-precomposed" = NO Gloss, will show as you designed it
+	rel="apple-touch-icon" = GLOSS, will show your image with standard apple gloss
+
+---------------------------------------------------------------
+
+When on admin panel on your phone create book mark, and select "Add to Home Screen" - usually change the title to something smaller
+
+==================================================================
