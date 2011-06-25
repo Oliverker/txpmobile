@@ -1,0 +1,46 @@
+
+/* iPad Start
+----------------------------------------------- */
+
+body#page-login div#admin, body#page-logout div#admin {width: 60%; float: left; margin: 0 20% ;}
+
+/* Categories */
+
+body#page-category table {width: 98%; margin: 0 1%;}
+body#page-category table tr td.categories {width: 47.9%; margin: 1%; float: left;}
+
+
+/*Images */
+
+/*== Just working out the tumbnail stuff
+body#page-image table#list-image tr:nth-child(2), body#page-image table#list-image tr:nth-child(3) {display: block; width: 25%; float: left;}
+body#page-image table#list-image tr:nth-child(2) form {display: none;}
+==*/
+
+body#page-list table#list tr:last-child td:nth-child(2)
+{display: block;}
+
+body#page-list table#list tr td {bor}
+
+
+body#page-image table#list td img {max-width: 300px; height: 100px;}
+
+body#page-image table#list-image td img {max-width: 100%; height: auto;}
+
+/*Links*/
+body#page-link table {width: 45.9%; margin: 2%; float: left;}
+
+
+/* LANSCAPE*/
+@media screen and (orientation:landscape)
+{
+
+div#article-main {width: 59%; float: left; margin: 0 2%;}
+div#article-extra {width: 35%; float: left; margin: 0 2% 0 0;}
+
+
+/*images */
+table#list-image tr:first-child, table#list-image tr:last-child {width: 50%; float: left;}
+
+
+}

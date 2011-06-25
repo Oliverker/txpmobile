@@ -1,0 +1,13 @@
+/*
+TXPMobile Theme for Textpattern CMS == ANDROID
+*/
+
+form.upload-form,
+form.image-replace,
+tr.thumbnail-edit,
+tr.thumbnail-alter
+{display: block;}
+
+img.image-fullsize { margin: 0 auto;}
+
+.thumbnail-edit {display: block}
