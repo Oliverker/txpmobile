@@ -73,7 +73,6 @@ function html_head()
 		return array(
 			'author' 		=> 'Oliver Ker',
 			'author_uri' 	=> 'http://olik.co.uk/',
-			'version' 		=> $prefs['0.4.1'],
 			'description' 	=> 'TXP Mobile',
 			'help' 			=> 'http://txpmobile.com',
 		);
@@ -152,7 +151,6 @@ function html_head()
 		return array(
 			'author' 		=> 'Oliver Ker',
 			'author_uri' 	=> 'http://olik.co.uk/',
-			'version' 		=> $prefs['0.4.1'],
 			'description' 	=> 'TXP Mobile',
 			'help' 			=> 'http://txpmobile.com',
 		);
